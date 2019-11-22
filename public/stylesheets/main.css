@@ -1,0 +1,11 @@
+:root {
+    --header-height: 64px;
+    --point-color: #ff6f61;
+}
+body {
+    margin: 0;
+}
+header {
+    height: var(--header-height);
+    background-color: var(--point-color);
+}
