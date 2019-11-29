@@ -1,3 +1,0 @@
-onload = function () {
-    alert("SEX!");
-};
