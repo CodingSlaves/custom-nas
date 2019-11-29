@@ -1,0 +1,36 @@
+:root {
+    --point-color1: #E60012;
+    --point-color2: #FAC300;
+    --point-color3: #D900A9;
+    --header-height: 64px;
+    --header-padding: 8px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: var(--header-height);
+    box-sizing: border-box;
+    padding: var(--header-padding);
+    background-color: lightgoldenrodyellow;
+    border-bottom: solid 2px var(--point-color3);
+}
+
+header > .logo-area {
+    width: calc(256px - var(--header-padding));
+    box-sizing: border-box;
+}
+header > .search-area {
+    width: calc(100% - (256px * 2) - (var(--header-padding) * 2));
+}
+header > .information-area {
+    width: calc(256px - var(--header-padding));
+    box-sizing: border-box;
+}
+
