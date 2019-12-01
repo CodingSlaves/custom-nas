@@ -14,3 +14,18 @@
 - 파일 미리보기
 - 공유 문서함
 - JWT (토큰 기반 인증방식)
+
+# Custom NAS
+
+## Core features
+    Features to make required
+- File Up/Download
+- Account ( Multiple User )
+- folder system
+- Back-end work -> logpacket
+- File type icon
+
+## Ancillary features
+- File preview
+- Sharing folder
+- JWT ( Authorization based by Token )
